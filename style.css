@@ -1,0 +1,36 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+    background-color: blue;
+    color: white;
+}
+
+::selection {
+    background-color: black;
+}
+
+a:link {
+    color: gold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#floater {
+    float: right;
+
+    width: 10%;
+    min-width: 150px;
+
+    position: fixed;
+    right: 1%;
+}
